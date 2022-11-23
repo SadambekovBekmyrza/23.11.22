@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  max-width: 980px;
+  padding: 30px;
+  background-color: rgb(96, 96, 212);
+  margin: auto;
+}
+.box {
+  padding: 20px;
+}
+.ml {
+  flex: 0 0 250px;
+  background-color: brown;
+  margin-right: 30px;
+}
+.blue {
+  background-color: blue;
+  flex: 1 1 0;
+}
